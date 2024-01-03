@@ -1,0 +1,559 @@
+{
+	"ROOT": [
+		{
+			"navTrack1to1FieldList": [
+				"chainSize",
+				"entityType"
+			],
+			"navTokenFieldList": [
+				"order",
+				"transcript",
+				"text",
+				"POS_dft",
+				"POS_Penn",
+				"kind",
+				"endNote",
+				"corpusSeq",
+				"tokenSeq",
+				"place",
+				"back",
+				"turnOrder"
+			],
+			"navChunkFieldList": [
+				"order",
+				"transcript",
+				"text",
+				"POS_dft",
+				"POS_Penn",
+				"kind",
+				"endNote",
+				"corpusSeq",
+				"tokenSeq",
+				"place",
+				"back",
+				"turnOrder"
+			],
+			"unitTagMap": {
+				"unitId": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"utteranceOrder": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"numNewReferents": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"unitStart": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"unitType": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": [
+						"holistic",
+						"integrative"
+					]
+				},
+				"participantId": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"unitDur": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"unitDurSkipPause": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"unitEnd": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"utteranceSeq": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": [
+						"2+",
+						"0",
+						"1",
+						"2"
+					]
+				},
+				"unitStartSkipPause": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"sequence": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				},
+				"type": "map",
+				"participant": {
+					"readOnly": 0,
+					"locked": 1,
+					"tagSet": [
+						"ALICE;",
+						"MARY;"
+					]
+				},
+				"turnSeq": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": []
+				}
+			},
+			"navRez1to1FieldList": [
+				"chainSize",
+				"entityType"
+			],
+			"navTrack1toManyFieldList": [
+				"gapUnits",
+				"gapWords",
+				"tokenCount",
+				"charCount",
+				"agreement",
+				"definite",
+				"gender",
+				"lexicality",
+				"markCount",
+				"number",
+				"numType",
+				"person",
+				"possessor",
+				"pronType",
+				"reflexive"
+			],
+			"navStack1to1FieldList": [
+				"chainSize",
+				"entityType"
+			],
+			"tokenTagMap": {
+				"kind": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": [
+						"Action",
+						"action",
+						"anno",
+						"endnote",
+						"EndNote",
+						"Laugh",
+						"laugh",
+						"Pause",
+						"pause",
+						"startnote",
+						"Tag",
+						"Vocalism",
+						"vocalism",
+						"word",
+						"Word"
+					]
+				},
+				"place": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"text": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"transcript": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"endNote": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": [
+						"appeal",
+						"break",
+						"continuing",
+						"final",
+						"suspended"
+					]
+				},
+				"order": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"corpusSeq": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"POS_dft": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": [
+						"ACT",
+						"ADJ",
+						"ADP",
+						"ADV",
+						"ANNO",
+						"AUX",
+						"BREATH",
+						"CCONJ",
+						"DET",
+						"FILL",
+						"INTJ",
+						"LAUGH",
+						"NOUN",
+						"NUM",
+						"PART",
+						"PAUSE",
+						"PRON",
+						"PRONOUN",
+						"PROPN",
+						"PRSDY",
+						"PUNCT",
+						"SCONJ",
+						"SYM",
+						"VERB",
+						"VOCAL",
+						"X"
+					]
+				},
+				"POS_Penn": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"tokenSeq": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"back": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"turnOrder": {
+					"readOnly": 0,
+					"locked": 0,
+					"targetList": [
+						"token",
+						"chunk"
+					],
+					"tagSet": []
+				},
+				"type": "map"
+			},
+			"entryTagMap": {
+				"gapWords": {
+					"rez": 1,
+					"card": 0,
+					"readOnly": 1,
+					"track": 1,
+					"locked": 0
+				},
+				"definite": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"definite",
+						"indefinite",
+						"neutral"
+					]
+				},
+				"reflexive": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"reflexive"
+					]
+				},
+				"markCount": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"0",
+						"1",
+						"2"
+					]
+				},
+				"possessor": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"possessor"
+					]
+				},
+				"person": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"1",
+						"2",
+						"3"
+					]
+				},
+				"number": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"collective",
+						"dual",
+						"paucal",
+						"plural",
+						"sing"
+					]
+				},
+				"pronType": {
+					"rez": 1,
+					"card": 0,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"other",
+						"personal"
+					]
+				},
+				"numType": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"cardinal",
+						"ordinal"
+					]
+				},
+				"gender": {
+					"rez": 1,
+					"card": 0,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"fem",
+						"masc",
+						"neuter"
+					]
+				},
+				"type": "map",
+				"agreement": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"concord",
+						"index",
+						"opaque-index"
+					]
+				},
+				"charCount": {
+					"rez": 1,
+					"card": 0,
+					"readOnly": 1,
+					"track": 1,
+					"locked": 0
+				},
+				"tokenCount": {
+					"rez": 1,
+					"card": 0,
+					"readOnly": 1,
+					"track": 1,
+					"locked": 0
+				},
+				"gapUnits": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 1,
+					"track": 1,
+					"locked": 0
+				},
+				"lexicality": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"cardinal",
+						"ordinal"
+					]
+				}
+			},
+			"chainTagMap": {
+				"chainSize": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 1,
+					"track": 1,
+					"locked": 0
+				},
+				"entityType": {
+					"rez": 1,
+					"card": 1,
+					"readOnly": 0,
+					"track": 1,
+					"locked": 0,
+					"tagSet": [
+						"abstract",
+						"animal",
+						"date\/time",
+						"event",
+						"location",
+						"number",
+						"organization",
+						"person",
+						"plant",
+						"quantity",
+						"substance",
+						"thing"
+					]
+				},
+				"type": "map"
+			},
+			"navUnitFieldList": [
+				"unitId",
+				"unitStart",
+				"unitEnd",
+				"sequence",
+				"participant",
+				"participantId",
+				"utteranceOrder",
+				"turnSeq",
+				"utteranceSeq",
+				"unitStartSkipPause",
+				"unitDur",
+				"unitDurSkipPause",
+				"utteranceSeq",
+				"unitType",
+				"numNewReferents"
+			],
+			"navStack1toManyFieldList": [
+				"gapUnits",
+				"gapWords",
+				"tokenCount",
+				"charCount",
+				"agreement",
+				"definite",
+				"lexicality",
+				"markCount",
+				"number",
+				"numType",
+				"person",
+				"possessor",
+				"reflexive"
+			],
+			"linkTagMap": {
+				"type": "map",
+				"Relation": {
+					"readOnly": 0,
+					"locked": 0,
+					"tagSet": [
+						"Adjunct",
+						"Arg",
+						"n\/a",
+						"Pred",
+						"X"
+					]
+				}
+			},
+			"navRez1toManyFieldList": [
+				"gapUnits",
+				"gapWords",
+				"tokenCount",
+				"charCount",
+				"agreement",
+				"definite",
+				"gender",
+				"lexicality",
+				"markCount",
+				"number",
+				"numType",
+				"person",
+				"possessor",
+				"pronType",
+				"reflexive"
+			]
+		}
+	]
+} 
